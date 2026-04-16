@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getFunctions } from 'firebase/functions';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyADA3Dx1ZUE7pABkfPHPTxiEXjpbJBjGDY',
+  apiKey: 'your api key',
   authDomain: 'titan-lab.firebaseapp.com',
   projectId: 'titan-lab',
   storageBucket: 'titan-lab.firebasestorage.app',
-  messagingSenderId: '515649086738',
-  appId: '1:515649086738:web:cee03cfbf0bb75aef77fcb',
-  measurementId: 'G-JWXRV0NVD1',
+  messagingSenderId: 'your-id',
+  appId: 'your-app-id',
+  measurementId: 'your-measurement-id',
 };
 
 export const app = initializeApp(firebaseConfig);
